@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-function Navigation() {
+import style from "./NavigationBar.module.css"
+function NavigationBar() {
   return (
-    <header>
-      <div>Tasks</div>
+    <header className={style.header}>
+      <div className={style.logo}>Tasks</div>
       <nav>
         <ul>
           <li>
@@ -19,4 +20,4 @@ function Navigation() {
     </header>
   );
 }
-export default Navigation;
+export default NavigationBar;
