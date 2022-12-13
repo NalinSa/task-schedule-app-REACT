@@ -3,11 +3,11 @@ import style from "./NavigationBar.module.css"
 function NavigationBar() {
   return (
     <header className={style.header}>
-      <div className={style.logo}>Tasks</div>
+      <div className={style.logo}>My Todo Tasks</div>
       <nav>
         <ul>
           <li>
-            <Link to="/">All My Tasks</Link>
+            <Link to="/">All Tasks</Link>
           </li>
           <li>
             <Link to="/add-new-task">Add New Task</Link>
