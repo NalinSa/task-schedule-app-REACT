@@ -16,6 +16,22 @@ const DATA = [
     deadlineyear: "2022",
     description: "it's interesting!",
   },
+  {
+    id: "id3",
+    title: "Learn React",
+    deadlineday: "02",
+    deadlinemonth: "02",
+    deadlineyear: "2022",
+    description: "it's interesting!",
+  },
+  {
+    id: "id4",
+    title: "Learn React",
+    deadlineday: "02",
+    deadlinemonth: "02",
+    deadlineyear: "2022",
+    description: "it's interesting!",
+  }
 ];
 function AllTasks() {
   return (
