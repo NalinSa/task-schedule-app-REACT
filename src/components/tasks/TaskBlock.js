@@ -5,7 +5,7 @@ function TaskBlock(props) {
     <li className={style.item}>
       <Card>
         <div className={style.content}>
-          <h3>TASK: {props.title}</h3>
+          <h3>TASK: {props.name}</h3>
           <div>
             <h4>DEADLINE: </h4>
             <p>

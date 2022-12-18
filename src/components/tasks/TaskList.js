@@ -7,7 +7,7 @@ function TaskList(props) {
         <TaskBlock
           key={task.id}
           id={task.id}
-          title={task.title}
+          name={task.name}
           deadlineday={task.deadlineday}
           deadlinemonth={task.deadlinemonth}
           deadlineyear={task.deadlineyear}

@@ -1,6 +1,9 @@
 .item {
   margin: 1rem 0;
-  width: 30rem;
+  min-width: 30rem;
+  max-width: 40rem;
+  display: inline-block;
+  padding: 1rem;
 }
 
 .content {

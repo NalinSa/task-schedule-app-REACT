@@ -2,15 +2,16 @@ import TaskList from "../components/tasks/TaskList";
 const DATA = [
   {
     id: "id1",
-    title: "Clean the dishes",
+    name: "Clean the dishes",
     deadlineday: "01",
     deadlinemonth: "01",
     deadlineyear: "2021",
-    description: "mom will kill you if you do not finish it-----------------------------------",
+    description:
+      "mom will kill you if you do not finish it--------------------------------------------------------------------------------------------------------------",
   },
   {
     id: "id2",
-    title: "Learn React",
+    name: "Learn React",
     deadlineday: "02",
     deadlinemonth: "02",
     deadlineyear: "2022",
@@ -18,7 +19,7 @@ const DATA = [
   },
   {
     id: "id3",
-    title: "Learn React",
+    name: "Learn React",
     deadlineday: "02",
     deadlinemonth: "02",
     deadlineyear: "2022",
@@ -26,18 +27,27 @@ const DATA = [
   },
   {
     id: "id4",
-    title: "Learn React",
+    name: "Learn React",
     deadlineday: "02",
     deadlinemonth: "02",
     deadlineyear: "2022",
     description: "it's interesting!",
-  }
+  },
+  {
+    id: "id5",
+    name: "Clean the dishes",
+    deadlineday: "01",
+    deadlinemonth: "01",
+    deadlineyear: "2021",
+    description:
+      "mom will kill you if you do not finish it--------------------------------------------------------------------------------------------------------------",
+  },
 ];
 function AllTasks() {
   return (
     <section>
       <h1>All Tasks</h1>
-      <TaskList tasks = {DATA}></TaskList>
+      <TaskList tasks={DATA}></TaskList>
     </section>
   );
 }
