@@ -3,45 +3,40 @@ const DATA = [
   {
     id: "id1",
     name: "Clean the dishes",
-    deadlineday: "01",
-    deadlinemonth: "01",
-    deadlineyear: "2021",
+    time: "00:35",
+    deadline: "2022-12-07",
     description:
       "mom will kill you if you do not finish it--------------------------------------------------------------------------------------------------------------",
   },
   {
-    id: "id2",
-    name: "Learn React",
-    deadlineday: "02",
-    deadlinemonth: "02",
-    deadlineyear: "2022",
-    description: "it's interesting!",
+    id: "id5",
+    name: "Clean the dishes",
+    time: "00:35",
+    deadline: "2022-12-07",
+    description:
+      "mom will kill you if you do not finish it--------------------------------------------------------------------------------------------------------------",
   },
   {
     id: "id3",
     name: "Learn React",
-    deadlineday: "02",
-    deadlinemonth: "02",
-    deadlineyear: "2022",
+    time: "00:35",
+    deadline: "2022-12-07",
     description: "it's interesting!",
   },
   {
     id: "id4",
     name: "Learn React",
-    deadlineday: "02",
-    deadlinemonth: "02",
-    deadlineyear: "2022",
+    time: "00:35",
+    deadline: "2022-12-07",
     description: "it's interesting!",
   },
   {
-    id: "id5",
-    name: "Clean the dishes",
-    deadlineday: "01",
-    deadlinemonth: "01",
-    deadlineyear: "2021",
-    description:
-      "mom will kill you if you do not finish it--------------------------------------------------------------------------------------------------------------",
-  },
+    id: "id7",
+    name: "Learn React",
+    time: "00:35",
+    deadline: "2022-12-07",
+    description: "it's interesting!",
+  }
 ];
 function AllTasks() {
   return (

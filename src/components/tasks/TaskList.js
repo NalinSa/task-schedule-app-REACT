@@ -8,9 +8,8 @@ function TaskList(props) {
           key={task.id}
           id={task.id}
           name={task.name}
-          deadlineday={task.deadlineday}
-          deadlinemonth={task.deadlinemonth}
-          deadlineyear={task.deadlineyear}
+          time={task.time}
+          deadline={task.deadline}
           description={task.description}
         />
       ))}

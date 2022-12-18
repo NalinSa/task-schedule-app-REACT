@@ -1,7 +1,7 @@
 .item {
   margin: 1rem 0;
-  min-width: 30rem;
-  max-width: 40rem;
+  min-width: 27rem;
+  max-width: 35rem;
   display: inline-block;
   padding: 1rem;
 }
@@ -18,12 +18,13 @@
   text-align: center;
 }
 .content h4 {
+  padding: 0.7rem;
   font-size: 1rem;
   color: #2c292b;
   display: inline;
 }
 .content p {
-  color: #2c292b;
+  color: #005EC2;
   display: inline;
 }
 
@@ -46,5 +47,3 @@
 .actions button:active {
   background-color: #bfdcfe;
 }
-
-  
