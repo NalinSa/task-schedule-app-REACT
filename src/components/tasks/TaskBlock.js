@@ -5,11 +5,17 @@ function TaskBlock(props) {
     <li className={style.item}>
       <Card>
         <div className={style.content}>
-          <h3>{props.title}</h3>
-          <p>{props.deadlineday}</p>
-          <p>{props.deadlinemonth}</p>
-          <p>{props.deadlineyear}</p>
-          <p>{props.description}</p>
+          <h3>TASK: {props.title}</h3>
+          <div>
+            <h4>DEADLINE: </h4>
+            <p>
+              {props.deadlineday}/{props.deadlinemonth}/{props.deadlineyear}
+            </p>
+          </div>
+          <div>
+            <h4>DESCRIPTION: </h4>
+            <p> {props.description}</p>
+          </div>
         </div>
         <div className={style.actions}>
           <button>Favarite</button>
