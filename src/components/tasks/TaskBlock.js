@@ -1,7 +1,9 @@
+import Card from "../ui/Card";
 import style from "./TaskBlock.module.css";
 function TaskBlock(props) {
   return (
-      <li className={style.card}>
+    <li className={style.item}>
+      <Card>
         <div className={style.content}>
           <h3>{props.title}</h3>
           <p>{props.deadlineday}</p>
@@ -12,7 +14,8 @@ function TaskBlock(props) {
         <div className={style.actions}>
           <button>Favarite</button>
         </div>
-      </li>
+      </Card>
+    </li>
   );
 }
 export default TaskBlock;

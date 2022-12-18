@@ -6,7 +6,7 @@ const DATA = [
     deadlineday: "01",
     deadlinemonth: "01",
     deadlineyear: "2021",
-    description: "mom will kill you if you do not finish it",
+    description: "mom will kill you if you do not finish it-----------------------------------",
   },
   {
     id: "id2",
