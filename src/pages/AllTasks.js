@@ -3,7 +3,7 @@ const DATA = [
   {
     id: "id1",
     name: "Clean the dishes",
-    time: "00:35",
+    time: "00:40",
     deadline: "2022-12-07",
     description:
       "mom will kill you if you do not finish it--------------------------------------------------------------------------------------------------------------",
@@ -12,7 +12,7 @@ const DATA = [
     id: "id5",
     name: "Clean the dishes",
     time: "00:35",
-    deadline: "2022-12-07",
+    deadline: "2022-12-06",
     description:
       "mom will kill you if you do not finish it--------------------------------------------------------------------------------------------------------------",
   },
@@ -20,13 +20,13 @@ const DATA = [
     id: "id3",
     name: "Learn React",
     time: "00:35",
-    deadline: "2022-12-07",
+    deadline: "2022-12-11",
     description: "it's interesting!",
   },
   {
     id: "id4",
     name: "Learn React",
-    time: "00:35",
+    time: "00:36",
     deadline: "2022-12-07",
     description: "it's interesting!",
   },
@@ -34,7 +34,7 @@ const DATA = [
     id: "id7",
     name: "Learn React",
     time: "00:35",
-    deadline: "2022-12-07",
+    deadline: "2022-12-03",
     description: "it's interesting!",
   }
 ];
