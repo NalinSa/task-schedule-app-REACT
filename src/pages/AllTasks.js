@@ -1,48 +1,44 @@
 import TaskList from "../components/tasks/TaskList";
-const DATA = [
-  {
-    id: "id1",
-    name: "Clean the dishes",
-    time: "00:40",
-    deadline: "2022-12-07",
-    description:
-      "mom will kill you if you do not finish it--------------------------------------------------------------------------------------------------------------",
-  },
-  {
-    id: "id5",
-    name: "Clean the dishes",
-    time: "00:35",
-    deadline: "2022-12-06",
-    description:
-      "mom will kill you if you do not finish it--------------------------------------------------------------------------------------------------------------",
-  },
-  {
-    id: "id3",
-    name: "Learn React",
-    time: "00:35",
-    deadline: "2022-12-11",
-    description: "it's interesting!",
-  },
-  {
-    id: "id4",
-    name: "Learn React",
-    time: "00:36",
-    deadline: "2022-12-07",
-    description: "it's interesting!",
-  },
-  {
-    id: "id7",
-    name: "Learn React",
-    time: "00:35",
-    deadline: "2022-12-03",
-    description: "it's interesting!",
-  }
-];
+import { useState, useEffect } from "react";
+
 function AllTasks() {
+  const [loadingData, setLoadingData] = useState(true);
+  const [taskData, setTaskData] = useState([]);
+
+  useEffect(() => {
+    setLoadingData(true);
+    fetch(
+      "https://task-schedule-app-16357-default-rtdb.asia-southeast1.firebasedatabase.app/tasks.json"
+    )
+      .then((response) => {
+        return response.json();
+      })
+      .then((data) => {
+        const tasks = [];
+        for (const key in data) {
+          const task = {
+            id: key,
+            ...data[key],
+          };
+          tasks.push(task);
+        }
+        setLoadingData(false);
+        setTaskData(tasks);
+      });
+  }, []);
+
+  if (loadingData) {
+    return (
+      <section>
+        <p>Loading...</p>
+      </section>
+    );
+  }
+
   return (
     <section>
       <h1>All Tasks</h1>
-      <TaskList tasks={DATA}></TaskList>
+      <TaskList tasks={taskData}></TaskList>
     </section>
   );
 }

@@ -2,7 +2,7 @@ import Card from "../ui/Card";
 import style from "./TaskForm.module.css";
 import { useRef } from "react";
 
-function TaskForm() {
+function TaskForm(props) {
   const nameInput = useRef();
   const timeInput = useRef();
   const deadlineInput = useRef();
@@ -22,6 +22,7 @@ function TaskForm() {
       description: enteredDescription,
     };
     console.log(taskData);
+    props.AddData(taskData);
   }
   return (
     <Card>
