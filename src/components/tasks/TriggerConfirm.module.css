@@ -1,0 +1,50 @@
+.accept button {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #005ec2;
+  color: white;
+  border: 1px solid white;
+  margin: 0 1rem;
+}
+
+.accept button:hover {
+  background-color: #1d8aff;
+}
+.actions {
+  padding: 0.5rem 1.5rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.trigger {
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+  background-color: rgb(17, 17, 17);
+  padding: 1rem;
+  text-align: center;
+  width: 25rem;
+  position: fixed;
+  top: 40vh;
+  left: calc(50% - 15rem);
+}
+.trigger h3{
+    color: white;
+}
+.trigger p{
+    color: rgb(251, 255, 40);
+}
+.cancel button {
+  font: inherit;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #ca0101;
+  color: white;
+  border: 1px solid white;
+  margin: 0 1rem;
+}
+.cancel button:hover {
+  background-color: #ff3131;
+}

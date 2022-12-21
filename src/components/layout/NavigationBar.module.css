@@ -25,11 +25,20 @@
   
   .header li {
     margin-left: 3rem;
+    padding: 1rem;
   }
   
   .header a {
     text-decoration: none;
     font-size: 1.5rem;
     color: #FEE600;
+  }
+
+  .header span{
+    color: #272724;
+    display: inline-block;
+    padding: 0 1rem;
+    background-color: aliceblue;
+    border-radius: 10px;
   }
   

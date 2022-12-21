@@ -2,11 +2,9 @@ import TaskList from "../components/tasks/TaskList";
 import { useState, useEffect } from "react";
 
 function AllTasks() {
-  const [loadingData, setLoadingData] = useState(true);
   const [taskData, setTaskData] = useState([]);
 
   useEffect(() => {
-    setLoadingData(true);
     fetch(
       "https://task-schedule-app-16357-default-rtdb.asia-southeast1.firebasedatabase.app/tasks.json"
     )
@@ -22,18 +20,9 @@ function AllTasks() {
           };
           tasks.push(task);
         }
-        setLoadingData(false);
         setTaskData(tasks);
       });
-  }, []);
-
-  if (loadingData) {
-    return (
-      <section>
-        <p>Loading...</p>
-      </section>
-    );
-  }
+  },[]);
 
   return (
     <section>

@@ -24,16 +24,18 @@
   display: inline;
 }
 .content p {
-  color: #005EC2;
+  color: #005ec2;
   display: inline;
 }
 
 .actions {
   padding: 1.5rem;
   text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
-.actions button {
+.favorite button {
   font: inherit;
   cursor: pointer;
   color: #003a77;
@@ -42,8 +44,22 @@
   padding: 0.5rem 1.5rem;
   border-radius: 4px;
 }
-
-.actions button:hover,
-.actions button:active {
-  background-color: #bfdcfe;
+.favorite button:hover,
+.favorite button:active {
+  background-color: #e2ebff;
 }
+
+.delete button {
+  font: inherit;
+  cursor: pointer;
+  color: #b40f03;
+  border: 1px solid #b40f03;
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+}
+.delete  button:hover,
+.delete  button:active {
+  background-color: #ffe2ed;
+}
+
