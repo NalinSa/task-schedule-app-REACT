@@ -26,6 +26,7 @@
 .content p {
   color: #005ec2;
   display: inline;
+  word-break: break-all;
 }
 
 .actions {
