@@ -39,6 +39,18 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+
+# task-schedule-app-REACT
+The main page is All Task. Tasks that you need to do are all on this page and sort by the deadline time.
+![SharedScreenshot3](https://user-images.githubusercontent.com/89216625/210324328-2cfdbcb4-1a24-4b7d-83cd-7e220e5ecce6.jpg)
+If you click delete task, the window will pop up to ask you did you finish the task.
+![SharedScreenshot1](https://user-images.githubusercontent.com/89216625/210324316-c4a5a6be-9530-4bd8-b045-507656e65a8d.jpg)
+On the navigation bar, there is a "My Favorite Task". All the tasks that you click fav are on this page.
+![SharedScreenshot2](https://user-images.githubusercontent.com/89216625/210324326-0fe69678-f1e7-49a3-826c-0242f0a612d0.jpg)
+Add New Task is the page for adding new task. you need to fill all infomation.After adding new task, it will navigate you back to the All Task page. Moreover, the task that you add will be put in firestore.
+![SharedScreenshot4](https://user-images.githubusercontent.com/89216625/210324332-15906c5a-55e9-468e-b8e1-db144c552fa1.jpg)
+
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
@@ -68,12 +80,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# task-schedule-app-REACT
-The main page is All Task. Tasks that you need to do are all on this page and sort by the deadline time.
-![SharedScreenshot3](https://user-images.githubusercontent.com/89216625/210324328-2cfdbcb4-1a24-4b7d-83cd-7e220e5ecce6.jpg)
-If you click delete task, the window will pop up to ask you did you finish the task.
-![SharedScreenshot1](https://user-images.githubusercontent.com/89216625/210324316-c4a5a6be-9530-4bd8-b045-507656e65a8d.jpg)
-On the navigation bar, there is a "My Favorite Task". All the tasks that you click fav are on this page.
-![SharedScreenshot2](https://user-images.githubusercontent.com/89216625/210324326-0fe69678-f1e7-49a3-826c-0242f0a612d0.jpg)
-Add New Task is the page for adding new task. you need to fill all infomation.After adding new task, it will navigate you back to the All Task page. Moreover, the task that you add will be put in firestore.
-![SharedScreenshot4](https://user-images.githubusercontent.com/89216625/210324332-15906c5a-55e9-468e-b8e1-db144c552fa1.jpg)
